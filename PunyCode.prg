@@ -35,7 +35,7 @@ Function PunnyCodeEncode
 		
 	LOCAL lnResultLen
 	LOCAL lcBuffer
-	lcBuffer = REPLICATE(" ",5000)
+	lcBuffer = Space(5000)
 	lnResultLen = IdnToAscii(0, EncodeLPCWString(lcDomainPart ), -1, @lcBuffer, LEN(lcBuffer))
 	
 	
@@ -68,7 +68,7 @@ Function PunnyCodeDecode
 		
 	LOCAL lnResultLen
 	LOCAL lcBuffer
-	lcBuffer = REPLICATE(" ",5000)
+	lcBuffer = Space(5000)
 	lnResultLen = IdnToUnicode (0, EncodeLPCWString(lcDomainPart ), -1, @lcBuffer, LEN(lcBuffer))
 
 	
