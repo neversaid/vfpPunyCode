@@ -22,6 +22,7 @@ lcTestMailPunny = "test@xn--abcdef-qua4k.de"
 * Last Revision:	01/21/2020
 * Parameters:		tcDomain - The Domain or Email to convert to punnycode
 * Returns:			PunnyCode of the given domain or email
+* References:       https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-idntoascii
 *==============================================================================
 
 Function PunnyCodeEncode
@@ -55,6 +56,7 @@ ENDFUNC
 * Last Revision:	01/21/2020
 * Parameters:		tcDomain - punnycode
 * Returns:			Readable domain or email
+* References:       https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-idntounicode
 *==============================================================================
 Function PunnyCodeDecode
 	LPARAMETERS tcDomain
