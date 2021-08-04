@@ -13,7 +13,7 @@ Punycode is used to translate non-ascii compilant (or unicode) domainnames into 
 
 ### About this Program
 This program has some Windows API Calls wrapped to use the encode and decode function of these in Visual FoxPro.  
-**Advice: It is using the API Calls to normalize.dll (See [MSDN Documentation](https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-idntounicode))
+**Advice: It is using the API Calls to normalize.dll (See [MSDN Documentation](https://docs.microsoft.com/en-us/windows/win32/api/winnls/nf-winnls-idntounicode))  
 Minimum requirement is Windows Vista or Windows Server 2008 !**
 
 #### Function **PunnyCodeEncode**  
