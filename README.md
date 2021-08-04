@@ -22,7 +22,7 @@ Takes a string as parameter, the domain or email which you want to convert from 
 Return: Punycode domain or email.
 
 Usage:  
-```dBase
+```xBase
  ** abæcdöef.de --> xn--abcdef-qua4k.de
  ? PunnyCodeEncode("abæcdöef.de")
 ```
@@ -32,7 +32,7 @@ Takes a string as parameter, the domain or email which is in valid Punycode and 
 Return: Punycode domain or email.
 
 Usage:  
-```dBase
+```xBase
  ** xn--abcdef-qua4k.de --> abæcdöef.de    
  ? PunnyCodeDecode("xn--abcdef-qua4k.de")
 ```
