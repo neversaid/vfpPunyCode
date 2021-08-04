@@ -23,7 +23,7 @@ Return: Punycode domain or email.
 
 Usage:  
 ``
- ** abæcdöef.de --> xn--abcdef-qua4k.de
+ ** abæcdöef.de --> xn--abcdef-qua4k.de  
  ? PunnyCodeEncode("abæcdöef.de")
 ``
 #### Function **PunnyCodeDecode**  
@@ -33,7 +33,7 @@ Return: Punycode domain or email.
 
 Usage:  
 ``
- ** xn--abcdef-qua4k.de --> abæcdöef.de  
+ ** xn--abcdef-qua4k.de --> abæcdöef.de    
  ? PunnyCodeDecode("xn--abcdef-qua4k.de")
 ``
 
