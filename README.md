@@ -22,20 +22,20 @@ Takes a string as parameter, the domain or email which you want to convert from 
 Return: Punycode domain or email.
 
 Usage:  
-``
- ** abæcdöef.de --> xn--abcdef-qua4k.de  
+```dBase
+ ** abæcdöef.de --> xn--abcdef-qua4k.de
  ? PunnyCodeEncode("abæcdöef.de")
-``
+```
 #### Function **PunnyCodeDecode**  
 
 Takes a string as parameter, the domain or email which is in valid Punycode and converts it to a Unicode / readable domain or email.  
 Return: Punycode domain or email.
 
 Usage:  
-``
+```dBase
  ** xn--abcdef-qua4k.de --> abæcdöef.de    
  ? PunnyCodeDecode("xn--abcdef-qua4k.de")
-``
+```
 
 ## If you like this...  
 ..i would be happy, if you give this repository a star if it was helping you! Thanks.
